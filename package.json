@@ -1,0 +1,36 @@
+{
+  "name": "wetennis-web-api",
+  "version": "0.0.1",
+  "description": "Web API for wetennis",
+  "main": "app.js",
+  "scripts": {
+    "start": "better-npm-run start"
+  },
+  "betterScripts": {
+    "start": {
+      "command": "node app.js",
+      "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "wetennis:*"
+      }
+    }
+  },
+  "author": "Khalil Zhang <kandmforever@126.com> (http://starandtina.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "cookie-parser": "1.4.3",
+    "cors": "2.8.0",
+    "express": "4.14.0",
+    "method-override": "2.3.6",
+    "sequelize": "3.24.1",
+    "tedious": "1.14.0"
+  },
+  "engines": {
+    "node": ">=6.5.0"
+  },
+  "devDependencies": {
+    "better-npm-run": "0.0.11",
+    "sequelize-cli": "2.4.0"
+  }
+}
